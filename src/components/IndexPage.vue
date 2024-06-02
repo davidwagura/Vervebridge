@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h1>hae</h1>
+        <h1 class="bg-blue-500">hae</h1>
     </div>
 </template>

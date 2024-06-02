@@ -7,6 +7,10 @@ import App from './App.vue'
 // Importing the router instance that we defined in 'router/index.js'
 import router from './router'
 
+//import index.css
+
+import './assets/main.css'
+
 // Creating a new Vue application instance
 const app = createApp(App)
 
