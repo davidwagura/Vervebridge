@@ -1,6 +1,6 @@
 # Weather App
 
-This is a simple weather application that shows you the current weather in your location or any other city you want to know about. It's built using Vue.js and Tailwind CSS, two tools that help make websites and apps look good and work well.
+This is a simple weather application that shows you the current weather in your city or any other city you want to know about. It's built using Vue.js and Tailwind CSS, two tools that help make websites and apps look good and work well.
 
 ## Table of Contents
 
@@ -34,10 +34,10 @@ Here's how you can use the app:
 
 ## Contributing
 
-If you like the app and want to help make it even better, you can! We'd love to have your help fixing bugs, adding new features, or just making it look nicer. Here's how you can get started:
+If you like the app and want to help make it even better, you can! I would love to have your help fixing bugs, adding new features, or just making it look nicer. Here's how you can get started:
 
 1. Click the "Fork" button at the top of the page to make your own copy of the code.
 
 2. Make your changes to the code on your computer, using whatever tools you like.
 
-3. When you're done, you can send us your changes by clicking the "Pull Request" button. We'll review them and, if everything looks good, we'll add them to the app!
+3. When you're done, you can your changes by clicking the "Pull Request" button. I'll review them and, if everything looks good, I'll add them to the app!
