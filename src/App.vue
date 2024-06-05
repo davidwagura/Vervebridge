@@ -2,8 +2,7 @@
 
   <div>
 
-    <h1 class="flex justify-center mt-16">Weather App</h1>
-
+    <!-- Rendering the component that matches the current route -->
     <router-view></router-view>
 
   </div>
