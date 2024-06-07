@@ -8,7 +8,7 @@ This is a simple weather application that shows you the current weather in your 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-
+ 
 ## Features
 
 - If you want to know the weather in a city, you can type its name and find out.
