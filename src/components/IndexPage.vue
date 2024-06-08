@@ -25,26 +25,19 @@
       <!-- Loading section displayed while fetching data -->
       <div v-if="loading" class="loading-section flex justify-center mt-4">
 
-        <p class="loading-text text-blue-500">Loading... <span>From https://www.weatherbit.io/</span></p>
+        <p class="loading-text text-blue-500">Loading...</p>
 
       </div>
   
       <!-- Weather information displayed after data is fetched -->
-      <div v-if="!loading" class="weather-info mt-4 font-serif">
+      <div v-if="!loading" class="weather-info mt-4 ml-20 font-serif">
 
         <!-- Display city name if available -->
-        <h2 v-if="city_name !== ''" class="info-item text-xl font-semibold mb-2">
+        <h2 v-if="city_name !== ''" class="info-item font-serif text-xl font-semibold mb-2">
           
           City: <span class="ml-2">{{ city_name }}</span>
         
         </h2>
-
-        <!-- Display weather description if available -->
-        <p v-if="weather_description !== ''" class="info-item text-lg mb-2">
-          
-          Weather: <span class="ml-2">{{ weather_description }}</span>
-        
-        </p>
 
         <!-- Display temperature if available -->
         <p v-if="temperature !== ''" class="info-item text-lg">
@@ -53,7 +46,16 @@
         
         </p>
 
+        <!-- Display weather description if available -->
+        <p v-if="weather_description !== ''" class="info-item text-lg mb-2">
+          
+          Weather: <span class="ml-2">{{ weather_description }}</span>
+        
+        </p>
+
       </div>
+
+      <footer class="text-blue-600 font-thin pt-6 text-sm -mb-8">Response from https://www.weatherbit.io/</footer>
 
     </div>
 
@@ -139,12 +141,6 @@ import axios from 'axios';
   .weather-container {
 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-
-  }
-
-  .input-section input {
-
-    width: 100%;
 
   }
 
