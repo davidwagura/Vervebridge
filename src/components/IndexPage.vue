@@ -25,7 +25,7 @@
       <!-- Loading section displayed while fetching data -->
       <div v-if="loading" class="loading-section flex justify-center mt-4">
 
-        <p class="loading-text text-blue-500">Loading...</p>
+        <p class="loading-text text-blue-500">Loading... <span>From https://www.weatherbit.io/</span></p>
 
       </div>
   
